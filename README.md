@@ -13,3 +13,10 @@ Mark2 is a web application for mark recognition.
 ```sh
 % dotnet publish -c Release -p GHPages=true -p GHPagesBase=/
 ```
+
+## Docker
+
+```sh
+% docker compose build
+% docker compose up
+```
