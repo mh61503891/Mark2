@@ -20,3 +20,5 @@ Mark2 is a web application for mark recognition.
 % docker compose build
 % docker compose up
 ```
+
+Open http://localhost:5130

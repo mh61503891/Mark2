@@ -5,4 +5,4 @@ services:
       dockerfile: Dockerfile
     tty: true
     ports:
-      - "5296:5296"
+      - "5130:5130"

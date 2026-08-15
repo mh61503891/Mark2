@@ -6,4 +6,4 @@ RUN dotnet workload install wasm-tools
 WORKDIR /src
 COPY . .
 RUN dotnet publish Mark2.csproj -p:GHPages=true -p:GHPagesBase=/ -c:Release -o:publish
-ENTRYPOINT ["/usr/bin/python3", "-m", "http.server", "-b", "0.0.0.0", "-d", "publish/wwwroot", "5296"]
+ENTRYPOINT ["/usr/bin/python3", "-m", "http.server", "-b", "0.0.0.0", "-d", "publish/wwwroot", "5130"]
